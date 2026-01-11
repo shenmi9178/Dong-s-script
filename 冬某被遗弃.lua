@@ -27,7 +27,7 @@ Library.ShowCustomCursor = true
 Library.NotifySide = "Right"
 
 local Window = Library:CreateWindow({
-    Title = '🇨🇳 被遗弃｜shenmiV2脚本🔥🔥',
+    Title = '🇨🇳 被遗弃|DMV2脚本🔥🔥',
     Footer = "V1.0",
     Icon = 106397684977541,
     Center = true,
@@ -58,9 +58,9 @@ local Tabs = {
 local _env = getgenv and getgenv() or {}
 local _hrp = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
 
-local new = Tabs.new:AddRightGroupbox('shenmiV2被遗弃脚本')
+local new = Tabs.new:AddRightGroupbox('DMV2被遗弃脚本')
 
-new:AddLabel("shenmi脚本qq主群1071982943")
+new:AddLabel("DM脚本qq主群1071982943")
 
 
 

@@ -2,7 +2,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 
 local Window = WindUI:CreateWindow({
-        Title = "<font color='#FF66CC'>打开/点开shenmiV2脚本</font>  ",
+        Title = "<font color='#FF66CC'>打开/点开DMV2脚本</font>  ",
         
 -- ↓ This all is Optional. You can remove it.
         
@@ -28,7 +28,7 @@ local Window = WindUI:CreateWindow({
     -- !  ↓  if you DON'T need the key system
     KeySystem = { 
         -- ↓ Optional. You can remove it.
-        Key = { "shenmiNB" },
+        Key = { "DMNB" },
         
         Note = "请输入免费卡密.",
         
@@ -70,27 +70,27 @@ Window:Tag({
 
 
 WindUI:Notify({
-    Title = "shenmiV2脚本通知",
-    Content = "shenmiV2脚本禁止倒卖",
+    Title = "DMV2脚本通知",
+    Content = "DMV2脚本禁止倒卖",
     Duration = 10, -- 10 seconds
     Icon = "bird",
 })
 
 WindUI:Notify({
-    Title = "shenmiV2脚本通知",
-    Content = "作者:shenmi、小迪",
+    Title = "DMV2脚本通知",
+    Content = "作者:shenmi",
     Duration = 10, -- 10 seconds
     Icon = "bird",
 })
 
 local Tab = Window:Tab({
-    Title = "shenmiV2脚本公告",
+    Title = "DMV2脚本公告",
     Icon = "layout-grid",
     Locked = false,
 })
 
 local Paragraph = Tab:Paragraph({
-    Title = "作者shenmi、小迪",
+    Title = "作者shenmi",
     Desc = "QQ群主群107198294 ",
     Image = "rbxassetid://75198135626218",
     ImageSize = 42,
@@ -99,7 +99,7 @@ local Paragraph = Tab:Paragraph({
 })
 
 local Paragraph = Tab:Paragraph({
-    Title = "欢迎使用shenmi脚本",
+    Title = "欢迎使用DM脚本",
     Desc = "QQ群主群1071982943 ",
     Image = "rbxassetid://75198135626218",
     ImageSize = 42,
@@ -190,11 +190,11 @@ local Slider = Tab:Slider({
 })
 
 local Button = Tab:Button({
-    Title = "shenmi飞行",
+    Title = "DM飞行",
     Desc = "",
     Locked = false,
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/nknmk88l/-78-/refs/heads/main/飞行源码.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/shenmi9178/Dong-s-script/refs/heads/main/%E5%86%AC%E6%9F%90%E9%A3%9E%E8%A1%8C.lua"))()
     end
 })
 

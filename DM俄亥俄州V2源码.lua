@@ -81,7 +81,7 @@ end
 }
 })
 Window:EditOpenButton({
-Title = "SX HUB",
+Title = "DM HUB",
 Icon = "crown",
 CornerRadius = UDim.new(0,16),
 StrokeThickness = 4,

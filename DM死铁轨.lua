@@ -106,7 +106,7 @@ WindUI:Notify({
 local XiaoDi = WindUI:CreateWindow({
     Title = "DM v2死铁轨",
     Icon = "rbxassetid:/",
-    Author = "主作者：小迪",
+    Author = "主作者：屑冬某",
     Folder = "迪脚本",
     Size = uiSize,
     Position = uiPosition,

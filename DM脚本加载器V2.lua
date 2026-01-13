@@ -24,31 +24,6 @@ local Window = WindUI:CreateWindow({
             Anonymous = false
         },
     
-    -- !  ↓  remove this all, 
-    -- !  ↓  if you DON'T need the key system
-    KeySystem = { 
-        -- ↓ Optional. You can remove it.
-        Key = { "DMNB" },
-        
-        Note = "请输入免费卡密.",
-        
-        -- ↓ Optional. You can remove it.
-        Thumbnail = {
-            Image = "rbxassetid://75198135626218",
-            Title = "",
-        },
-        
-        -- ↓ Optional. You can remove it.
-        
-        
-        -- ↓ Optional. You can remove it.
-        SaveKey = false, -- automatically save and load the key.
-        
-        -- ↓ Optional. You can remove it.
-        -- API = {} ← Services. Read about it below ↓
-    },
-})
-            
 Window:Tag({
     Title = "重制版",
     Color = Color3.fromHex("#30ff6a")
